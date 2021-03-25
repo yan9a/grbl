@@ -584,7 +584,7 @@
 // override immediately after coming to a stop. However, this also means that the laser still may
 // be reenabled by disabling the spindle stop override, if needed. This is purely a safety feature
 // to ensure the laser doesn't inadvertently remain powered while at a stop and cause a fire.
-#define DISABLE_LASER_DURING_HOLD // Default enabled. Comment to disable.
+// #define DISABLE_LASER_DURING_HOLD // Default enabled. Comment to disable.
 
 // This feature alters the spindle PWM/speed to a nonlinear output with a simple piecewise linear
 // curve. Useful for spindles that don't produce the right RPM from Grbl's standard spindle PWM 

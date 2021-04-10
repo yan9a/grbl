@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude" -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -pm328p -carduino -P\\.\COM4 -D -Uflash:w:grbl_v1.1h.hex

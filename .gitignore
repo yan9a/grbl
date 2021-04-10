@@ -3,5 +3,5 @@
 *.elf
 *.DS_Store
 *.d
-
+!hex/grbl_v1.1h.hex
 README.md
